@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "air.toml": "toml"
+  },
+  "evenBetterToml.schema.associations": {
+    "air.toml": ""
+  }
+}
