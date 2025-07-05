@@ -1,0 +1,41 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build artifacts
+*.a
+*.o
+
+# Output of `go run`
+main
+
+# Dependency directories (if using older vendoring)
+vendor/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Air config files
+.air
+.air.toml
+
+# Coverage reports
+coverage.out
+
+# Test cache
+*.testcache
