@@ -1,13 +1,17 @@
-import "./App.css";
-import { Button, Box, Text, Input, VStack } from "@chakra-ui/react";
+import "./index.css";
+import { Button, Container } from "@chakra-ui/react";
+import Navbar from "./components/Navbar";
+import { TodoForm } from "./components/TodoForm";
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
     <>
-      <h1> hii there</h1>
-      <Button>Click Me</Button>
-      <Text>this is a text</Text>
-      <Input />
+      <Navbar />
+      <Container>
+        <TodoForm />
+        <TodoList />
+      </Container>
     </>
   );
 }
